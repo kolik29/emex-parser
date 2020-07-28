@@ -1,9 +1,9 @@
-###Для начала
-`pip install beautifulsoup4`
+### Для начала
+```pip install beautifulsoup4```
 
 В данном проекте нет кода, в котором используется прокси, т.к. он остался на сервера, к которому уже нет доступа
 
-###Принцип работы
+### Принцип работы
 
 Тут всё просто:
 1. Делается запрос `https://emex.ru/api/search/search?detailNum=' + articule + '&make=Land%2BRover&latitude=55.753960&longitude=37.620393&showAll=false` который возращает json
